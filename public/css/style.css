@@ -1,0 +1,850 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+.tamTexto {
+    font-size: 19px;
+}
+
+.h5-header {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+.h6-header {
+    font-size: 1rem;
+    line-height: 110%;
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+
+html {
+    font-family: ubuntu !important;
+}
+
+.slider {
+    margin-top: -64px;
+    z-index: -1;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+/*
+.fondo-menu {
+    /* background-color: rgba(255,255,255,0);
+    color: white;
+    background-color: #0089ec !important;
+}
+*/
+
+.fondo-menu-oficina {
+    /* background-color: rgba(255,255,255,0); */
+    color: white;
+    background-color: #102f3f !important;
+}
+
+.fondo-menu-publico {
+    background-color: rgba(255,255,255,0);
+    color: white;
+}
+
+
+/*
+* Parte con errores !
+nav ul a,
+nav .brand-logo {
+
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: large;
+font-weight: bold;
+}
+*/
+.fuente {
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-size: 19px; */
+}
+
+.logo-fuente {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.interlinea {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.main-content-1{float: left; width: 79%}
+.main-content-2{float: left; width: 21%}
+.main-content-2.information{
+    border-top-left-radius: 20px;
+    background-color: #c4c4c4;
+    padding: 20px 5px 5px 20px;
+    min-height: 77vh;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    /* Fix DataTables */
+    .data-table {
+        border: none !important;
+        width: 100% !important;
+    }
+
+    .data-table > thead > tr > th {
+        border: none !important;
+    }
+}
+
+/* Moviles */
+@media only screen and (max-width: 768px) {
+
+    .fuente-titulos {
+        font-size: 24px !important;
+    }
+    .fuente-subtitulos {
+        font-size: 24px !important;
+    }
+
+    .small-caption {
+        width: 100%;
+    }
+
+    .brand-logo {
+        width: 17% !important;
+    }
+
+    /* Fix DataTables */
+    .data-table {
+        border: none !important;
+        width: 100% !important;
+    }
+
+    .data-table > thead > tr > th {
+        border: none !important;
+    }
+    .main-content-1{float: left; width: 100%}
+    .main-content-2{float: left; width: 100%}
+    .main-content-2.information{border-top-left-radius: 20px; border-top-right-radius: 20px;}
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.negro {
+    color: black;
+}
+
+.blanco {
+    color: white;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+/*
+cod mod codigo
+añadido el 14 Febrero 2017 para el tamaño del logo en el envio del correo para recuperar contraseña de usuario
+*/
+.img-recover-pwd {
+    align: left;
+    height: 100px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.fondo-negrot {
+    background: rgba(43, 46, 51, 0.92);
+    /* rgba(43, 46, 51, 0.52); */
+}
+
+/* mod cod */
+i.icon-color {
+    color: white;
+}
+
+.fuente2 {
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.fuente-14 {
+    font-size: 14px !important;
+}
+
+.fuente-15 {
+    font-size: 15px !important;
+}
+
+.fuente-16 {
+    font-size: 16px !important;
+}
+
+.fuente-17 {
+    font-size: 17px !important;
+}
+.fuente-18 {
+    font-size: 18px !important;
+}
+
+.titulos_slide {
+    background-color: rgba(66, 165, 245, 0.58); /* #42a5f5;*/
+}
+
+.titulos_slide2 {
+    background-color: rgba(117, 117, 117, 0.23);
+}
+
+.titulos_parallax {
+    border: solid 0.1px #696D7D;
+}
+
+.hr_centro {
+    width: 40px;
+}
+
+.hr_50 {
+    width: 50% !important;
+}
+
+.hr-25 {
+    width: 25% !important;
+}
+
+.activo {
+    background-color: #66BB6A;
+}
+
+#toTop:hover {
+    background: rgba(0,0,0,.1);
+}
+#toTop.show {
+    right: 8px;
+    opacity: 1;
+}
+#toTop {
+    display: block;
+    position: fixed;
+    right: -10px;
+    bottom: 58px;
+    cursor: pointer;
+    width: 27px;
+    background: rgba(255,255,255,.8);
+    color: #636363;
+    opacity: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 27px;
+    vertical-align: middle;
+    border-radius: 30px;
+    z-index: 999;
+    transition: .25s;
+    border: 1px solid rgba(0,0,0,.7);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+
+.btn-info {
+    background-color: #64b5f6;
+    color: #e7e9fd;
+    text-decoration: none;
+    letter-spacing: .0px;
+}
+
+.btn-primary {
+    color: #e7e9fd;
+    background-color: #337ab7;
+    text-decoration: none;
+    letter-spacing: .0px;
+}
+
+.btn-primary:hover {
+    color: #337ab7 !important;
+    background-color: white !important;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    color: #e7e9fd;
+    text-decoration: none;
+    letter-spacing: .0px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: #e7e9fd;
+    margin-right: 10px;
+}
+
+.btn-xs {
+    padding: 4px 8px;
+    font-size: 10px;
+}
+
+.success {
+    background-color:#43AC6A;
+    border-color:#368a55;
+    color:#fff;
+    box-shadow:none;
+    cursor:default;
+    opacity:0.7
+}
+
+div.message {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    padding: 0 1.5rem 0 1.5rem;
+    transition: height 300ms ease-out 0s;
+    background-color: #a0d3e8;
+    color: #626262;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    overflow: hidden;
+    height: 50px;
+    line-height: 2.5em;
+    box-radius: 5px;
+
+}
+
+div.message:before {
+    line-height: 0px;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    background-color: #FFF;
+    padding: 12px 14px 12px 10px;
+    content: "i";
+    color: #a0d3e8;
+}
+
+div.message.error {
+    background-color: #C3232D;
+    color: #FFF;
+}
+
+div.message.error:before {
+    padding: 11px 16px 14px 7px;
+    color: #C3232D;
+    content: "x";
+}
+div.message.hidden {
+    height: 0;
+}
+
+header, main, footer {
+    padding-left: 100px; /* 231px; */
+}
+
+.card-profile-image{
+    width: 70px;
+    position: absolute;
+    top: 110px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+/* Arreglar el nombre del label en el selectbox */
+.fixselect {
+    margin-top: -5%;
+}
+
+.enlinea {
+    display: inline-block;
+}
+
+.azul {
+    background-color: #267ca6 !important;
+}
+
+.pos-aboslute-flash {
+    position: absolute !important;
+    top: 11em !important;
+    right: 0em !important;
+    width: 100% !important;
+    /*height: 58px !important; */
+    z-index: 999;
+}
+
+.formRecoveryPassRow {
+    min-height: 100%;
+    height:100%;
+    width: 100%;
+    top: 0;
+}
+
+.formRecoveryPassColA {
+    min-height:100%;
+    height: 100%;
+}
+
+.formRecoveryPassRowB {
+    margin-bottom: 0;
+}
+
+.formRecoveryPassRowC {
+    margin-bottom: 0;
+    max-width: 600px;
+}
+
+.responsiveH {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+.botonflotante {
+    bottom: 45px; right: 24px;
+}
+
+.fondo-gris-claro {
+    background-color: #FCFCFC;
+}
+
+/* añadido 14 febrero 2017 para corregir el submenu en oficina virtual */
+.dropdown-content li > a, .dropdown-content li > span {
+    font-size: 0.8rem !important;
+}
+
+/* Añadido para los bordes de sombra del slider en home */
+
+.borde-redondo {
+    border-radius: 15px;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.sidenav .user-view .profile {
+    height: 145px;
+    /* border-radius: 31px;*/
+    /* width: 64px; */
+    /* background-color: #b71c1c;*/
+}
+
+.fondo-navbar1 {
+
+}
+
+
+.dropdown-content .settings-group .setting {
+    padding: 16px;
+    line-height: 24px;
+}
+
+.settings-group .setting {
+    color: #181818;
+    font-size: 16px;
+    margin: 0;
+    background-color: #fff;
+    padding: 24px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #448AFF;
+}
+.tabs .tab a {
+    color: rgba(68,138,255,0.7);
+}
+*/
+
+.dropdown-content.notifications .notifications-title {
+    height: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.dropdown-content.notifications {
+    background-color: #f4f4f4;
+    color: rgba(0,0,0,0.87);
+    padding: 8px 16px;
+    width: 450px;
+}
+
+.dropdown-content.notifications .card .card-action {
+    padding: 0px;
+    height: auto;
+}
+
+.display-flex {
+    display: flex !important;
+}
+
+a.btn-outline-primary:hover {
+    background-color: #337ab7;
+    color: #e7e9fd;
+}
+
+.btn-outline-danger {
+    background-color: white;
+    color: #d9534f;
+}
+
+.btn-outline-danger:hover {
+    background-color: #d9534f;
+    color: #e7e9fd;
+}
+
+.margin-10 {
+    margin-left: 10px;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: white;
+    color: #64b5f6;
+}
+
+.btn-outline-primary {
+    color: #337ab7;
+    background-color: white;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: #337ab7!important;
+}
+
+a.btn-cert-action {
+    padding: 1px 5px;
+    margin-top: 5px;
+}
+
+.btn-outline-secondary {
+    color: #2bbbad !important;
+    background-color: white !important;
+    border: 1px solid #2bbbad !important;
+}
+
+.btn-outline-secondary:hover {
+    color: white !important;
+    background-color: #2bbbad !important;
+}
+
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+    background-color: #337ab7;
+    color: #e7e9fd;
+}
+
+/* Tamaño del menu */
+.sidenav {
+    width: 230px !important;
+}
+
+.green-group {
+    background-color: #66BB6A !important;
+    color: white;
+}
+
+/* Pestañas */
+.tabs .tab a {
+    color: rgb(110 172 238 / 70%); /* #6eaceeb3 */
+}
+
+/*  */
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #1976D2;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgb(178 212 246 / 20%);
+}
+
+.tabs .indicator {
+    background-color: #b2caf6;
+}
+
+/* ALERTS de Boostrap 4 Agregado el 7 de sept 2020 */
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: white;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/* Caja de filtro Files */
+.file-filter {
+    border: 1px #dcd9d9 solid;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .file-filter {
+        margin-top: 10px;
+    }
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+/* Fix modal footer */
+.modal .modal-footer {
+    padding: 4px 20px;
+}
+
+.file-answer-modal {
+    padding-bottom: 0px !important;
+}
+
+/**************************/
+.chat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li .chat-body p {
+    margin: 0;
+    color: #777777;
+}
+
+.panel-body {
+    overflow-y: scroll;
+    height: 250px;
+}
+
+/* Para darle estilo personalizado al scroll */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.chat-area-no-msj {
+    position: relative;
+    top: 32%;
+    left: 35%;
+    color: gray;
+}
+
+.id_user_message {
+    background: rgba(255,255,255,0.1);
+    -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+    -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+    transition: transform ease-out 0.1s, background 0.2s;
+}
+
+.id_user_message:hover {
+    -webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    transform: scale(0.93);
+    border-bottom: #039be5 solid 2px;
+    cursor: pointer;
+}
+
+.padding-sides-10 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.padding-register-card-body {
+    padding-bottom: 1%;
+}
+
+.padding-register-card-header {
+    padding-top: 2%;
+}
+
+.margin-bottom-3 {
+    margin-bottom: 3%;
+}
+
+/* Color para sweet alert */
+.swal-button--cancel {
+    color: #555;
+    background-color: #efefef !important;
+}
+
+.pagination li.active {
+    background-color: #263238 !important;
+}
+
+/* Fix DataTables */
+.data-table {
+    width: 100%;
+}
+
+.dataTables_paginate > .pagination li a {
+    line-height: 20px !important;
+}
+
+
+.dataTables_length > label > .select-wrapper > input {
+    display: none;
+}
+
+.dataTables_length > label > .select-wrapper > svg {
+    display: none;
+}
+
+
+.dataTables_length {
+    margin-left: 15px;
+}
+
+.dataTables_filter {
+    margin-right: 15px;
+}
+
+.data-table {
+    width: 100% !important;
+}
